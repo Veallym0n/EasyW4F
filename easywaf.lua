@@ -199,7 +199,7 @@ _M._CFG = {
     policy_server        = "http://127.0.0.1:4009/update_rule",        --[[  规则升级地址 ]]
     rule_update_interval = 5,                                          --[[  规则升级循环时间 ]]
     waf_server           = "http://127.0.0.1:4008",                    --[[  match的请求将转发给waf的地址 ]]
-    rule_version         = "0000000000",
+    version         = "0000000000",
     default_forward_timeout = 300
 }
 
