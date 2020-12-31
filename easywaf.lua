@@ -122,7 +122,6 @@ function _M.check_request()
             else
                 _M.forward_request(rule)
             end
-            ngx.ctx.sec_ruleid = rule["ruleid"]
             break
         end
     end
